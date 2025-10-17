@@ -1,0 +1,3 @@
+reviews:
+  path_filters:
+    - "!**/*Impl.java"  # Impl.java 파일들을 리뷰에서 제외
