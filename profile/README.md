@@ -197,6 +197,19 @@
 
 ---
 
+## 🐶 협업 도구
+- **GitHub Projects**: 작업 관리 및 진행상황 추적
+  <img width="1433" height="910" alt="화면 캡처 2025-11-08 224945" src="https://github.com/user-attachments/assets/50607c3e-e161-41ac-8f09-3cd25eb04c7c" />
+
+- **Notion**: 문서화 및 회의록
+  <br /> (노션 링크 추가 예정)
+
+- **Slack**: 팀 커뮤니케이션
+
+<br />
+
+---
+
 ## 🐶 확장 계획
 
 <div align="center">
