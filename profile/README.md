@@ -150,7 +150,12 @@ Application: SUBMITTED → UNDER_REVIEW → APPROVED/REJECTED<br />
 ---
 
 ## 🐶 모니터링
-(모니터링 관련 작업 내용 또는 이미지 추가 예정)
+### Grafana Dashboard
+<img width="1886" height="854" alt="image" src="https://github.com/user-attachments/assets/92143ff7-2cfe-48a2-a87a-9172ba50b0ea" />
+
+### Application Metrics
+<img width="928" height="854" alt="image (1)" src="https://github.com/user-attachments/assets/ad64e889-aa57-475b-b827-8a4f9330fdfc" />
+
 
 <br />
 
