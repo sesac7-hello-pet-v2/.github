@@ -81,6 +81,13 @@ Hello PET은 이 안타까운 현실을 조금이라도 바꾸고 싶다는 마�
 ![Loki](https://img.shields.io/badge/Loki-F7B500?style=flat-square&logo=grafana&logoColor=white)
 ![Tempo](https://img.shields.io/badge/Tempo-FF6C37?style=flat-square&logo=grafana&logoColor=white)
 
+### Testing
+![K6](https://img.shields.io/badge/K6-7D64FF?style=flat-square&logo=k6&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![OWASP ZAP](https://img.shields.io/badge/OWASP_ZAP-000000?style=flat-square&logo=owasp&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+
+
 <br />
 <br />
 
@@ -117,8 +124,19 @@ Application: SUBMITTED → UNDER_REVIEW → APPROVED/REJECTED<br />
 
 ---
 
-## 📌 서비스 분리
-유저 : user service
+## 🏗 서비스 구성
+
+| 서비스명 | 책임 |
+|---------|------|
+| Frontend | UI/UX, SSR |
+| API Gateway | 라우팅, 인증 검증 |
+| Auth Service | 인증/인가, JWT |
+| User Service | 사용자 관리 |
+| Board Service | 게시판 CRUD |
+| Image Service | 이미지 처리 |
+| Announcement Service | 입양 동물 공고 |
+| Application Service | 입양 신청 |
+| Pet Service | 입양동물 정보 |
 
 <br />
 <br />
