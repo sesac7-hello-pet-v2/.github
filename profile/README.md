@@ -195,5 +195,7 @@ Application: SUBMITTED → UNDER_REVIEW → APPROVED/REJECTED<br />
 | **SAGA 패턴** | MSA 환경에서 분산 트랜잭션 관리 및 비동기 이벤트 기반 처리 구현 |
 | **메시지 큐 (Kafka/SQS)** | 비동기 이벤트 처리 및 입양 신청자 점수 자동 집계·순위 산정 시스템 구축 |
 | **AI 매칭 엔진** | 사용자-반려동물 간 맞춤형 매칭 추천 시스템 구현 |
+| **로그 백업** | Observability의 로그 정보가 일정 기간 혹은 일정 용량 이상이면 S3로 백업 |
+| **리소스 알람** | Observability의 리소스가 설정 한계치를 넘으면 slack 이나 email로 알리는 시스템 구축 |
 
 <br />
