@@ -1,5 +1,6 @@
 # HelloPet 🐾
 선착순 식당 예약 서비스입니다.
+<img width="1216" height="1294" alt="localhost_3000_ (1)" src="https://github.com/user-attachments/assets/44e5bc38-9f28-4d87-a79f-32d6b5c17ee4" />
 
 📌 프로젝트 목표
 백엔드 개발에 집중하기 위해 프론트엔드의 부분은 생략
