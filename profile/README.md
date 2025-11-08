@@ -111,7 +111,7 @@
 
 ---
 
-## 🐶 인프라 아키텍처
+## 🐶 전체 인프라 아키텍처
 <p align="center">
 <img width="1621" height="941" alt="image" src="https://github.com/user-attachments/assets/ee335a3e-f925-45d0-b250-df2e65eea724" />
 </p>
@@ -200,13 +200,20 @@
 ---
 
 ## 🐶 협업 도구
-- **GitHub Projects**: 작업 관리 및 진행상황 추적
-  <img width="1433" height="910" alt="화면 캡처 2025-11-08 224945" src="https://github.com/user-attachments/assets/50607c3e-e161-41ac-8f09-3cd25eb04c7c" />
+### GitHub Projects
+작업 관리 및 진행상황 추적
+<img width="1433" height="910" alt="화면 캡처 2025-11-08 224945" src="https://github.com/user-attachments/assets/50607c3e-e161-41ac-8f09-3cd25eb04c7c" />
 
-- **Notion**: 문서화 및 회의록
-  <br /> (노션 링크 추가 예정)
+<br /> 
 
-- **Slack**: 팀 커뮤니케이션
+### Notion
+문서화 및 회의록
+<br /> (노션 링크 추가 예정)
+
+<br /> 
+
+### Slack
+팀 커뮤니케이션
 
 <br />
 
