@@ -84,7 +84,8 @@
 ---
 
 ## 🐶 서비스 구성
-
+<div align="center">
+  
   | 서비스명                       | 역할                                    |
   |----------------------------|---------------------------------------|
   | application-service        | 입양 신청서 관리 및 승인/거절 처리 서비스 |
@@ -95,27 +96,9 @@
   | image-service              | AWS S3 기반 이미지 업로드/삭제 처리 서비스           |
   | spring-api-gateway-service | API 게이트웨이 - 라우팅 및 JWT 인증 서비스          |
   | user-service               | 사용자(일반인/쉘터) 계정 관리 서비스                 |
+  
+</div>
 
-<br />
-
----
-
-## 🐶 주요 기능
-### 보호소
-유기동물 등록 및 관리<br />
-입양 공고 생성 및 관리<br />
-입양 신청서 검토 및 승인/거부<br />
-<br />
-
-### 입양희망자
-입양 가능 동물 검색 및 조회<br />
-입양 신청서 제출<br />
-신청 현황 확인<br />
-<br />
-
-### 커뮤니티
-게시판 기능 (자유게시판, 후기 등)<br />
-이미지 업로드 및 관리<br />
 <br />
 
 ---
@@ -146,16 +129,18 @@
 
 ## 🐶 모니터링
 ### Grafana Dashboard
+<p align="center">
 <img width="1886" height="854" alt="image" src="https://github.com/user-attachments/assets/92143ff7-2cfe-48a2-a87a-9172ba50b0ea" />
+</p>
 
 ### Application Metrics
+<p align="center">
 <img width="928" height="854" alt="image (1)" src="https://github.com/user-attachments/assets/ad64e889-aa57-475b-b827-8a4f9330fdfc" />
-
+</p>
 
 <br />
 
 ---
-
 
 ## 🐶 테스트 결과
 ### 부하 테스트 (K6)
@@ -186,6 +171,8 @@
 
 ## 🐶 확장 계획
 
+<div align="center">
+  
 | 기술 | 도입 목적 |
 |------|----------|
 | **SAGA 패턴** | MSA 환경에서 분산 트랜잭션 관리 및 비동기 이벤트 기반 처리 구현 |
@@ -193,5 +180,7 @@
 | **AI 매칭 엔진** | 사용자-반려동물 간 맞춤형 매칭 추천 시스템 구현 |
 | **로그 백업** | Observability의 로그 정보가 일정 기간 혹은 일정 용량 이상이면 S3로 백업 |
 | **리소스 알람** | Observability의 리소스가 설정 한계치를 넘으면 slack 이나 email로 알리는 시스템 구축 |
+
+</div>
 
 <br />
