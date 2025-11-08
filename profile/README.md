@@ -1,43 +1,31 @@
-# HelloPet 🐾
-<img width="1216" height="1294" alt="localhost_3000_ (1)" src="https://github.com/user-attachments/assets/44e5bc38-9f28-4d87-a79f-32d6b5c17ee4" />
-반려동물과 반려인을 이어주는 따뜻한 연결고리를 만들고 싶어 시작한 프로젝트예요.
-
-매년 10만 마리가 넘는 동물들이 보호소에 들어오지만, 충분한 입양이 이루어지지 않아 많은 아이들이 안락사되는 현실이 이어지고 있어요.
-
-Hello PET은 이 안타까운 현실을 조금이라도 바꾸고 싶다는 마음에서 시작됐어요.
-
-우리의 목표는 단순해요.
-
-예비 반려인분들이 보호 중인 동물의 정보를 쉽게 확인하고, 입양 절차를 간편하게 안내받아 신청할 수 있도록 해서 더 많은 동물들이 따뜻한 가족을 만날 수 있게 돕는 거예요.
-
-저희를 통해 소중한 인연이 만들어진다면 정말 기쁠 것 같아요.
-여러분도 새로운 가족과의 특별한 만남, 함께 시작해보시는 건 어떨까요?
-
-<br />
-<br />
 
 ---
+## 🐶 개요
 
-## 🎯 프로젝트 개요
 ### 배경
+- 매년 약 10만 마리의 유기동물이 발생하지만, 입양률은 25%에 불과
+- 낮은 입양 정보 접근성으로 인해 보호소의 운영 부담 및 안락사율 증가
 
-연간 약 11만 마리의 유기동물 발생 (2024년 기준)<br />
-입양률 25%, 자연사/안락사 비율 45%<br />
-입양 정보 접근성 부족 문제 해결 필요<br />
 
 ### 목적
-모놀리식 아키텍처의 한계를 극복하고 확장 가능하고 안정적인 클라우드 기반 MSA 시스템 구축<br />
+- 보호소의 운영 부담을 줄이고, 입양 문화를 확산하기 위한 서비스 구축
+- 안정적 운영과 향후 확장을 고려한 클라우드 기반 MSA 시스템 구현
 
-### 프로젝트 기간
-2025.09.23 - 2025.10.27 (35일)<br />
+
+### 기간
+- 2025.09.23 ~ 2025.10.27 (35일)
 
 <br />
+
+### 실제 메인페이지
+<img width="1216" height="1294" alt="localhost_3000_ (1)" src="https://github.com/user-attachments/assets/44e5bc38-9f28-4d87-a79f-32d6b5c17ee4" />
+
 <br />
 
 
 ---
 
-## 👥 팀원
+## 🐶 개발자
 
 | <img src="https://github.com/ryukyungwoo.png" width="100"/> | <img src="https://github.com/xeimun.png" width="100"/> | <img src="https://github.com/namung08.png" width="100"/> |
 |:---:|:---:|:---:|
@@ -46,16 +34,16 @@ Hello PET은 이 안타까운 현실을 조금이라도 바꾸고 싶다는 마�
 | IaC를 활용한 인프라 구축<br/>모니터링 및 CI/CD 구축 | 입양 플랫폼 핵심 서비스 API 설계 및 구현<br/>상태 로직 고도화로 입양 프로세스 안정화 | 게시판 서비스 고도화<br/>E2E 테스트 자동화 |
 
 <br />
-<br />
-
 
 ---
 
-## 🛠 기술 스택
+## 🐶 기술 스택
 
 ### Frontend
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-443E38?style=flat-square&logo=react&logoColor=white)
 
 ### Backend
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
@@ -66,13 +54,14 @@ Hello PET은 이 안타까운 현실을 조금이라도 바꾸고 싶다는 마�
 
 ### Infrastructure
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![AWS EKS](https://img.shields.io/badge/AWS_EKS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
 ![Vagrant](https://img.shields.io/badge/Vagrant-1868F2?style=flat-square&logo=vagrant&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
 
-### CI/CD & GitOps
-![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
+### CI/CD
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 ### Observability
@@ -87,44 +76,11 @@ Hello PET은 이 안타까운 현실을 조금이라도 바꾸고 싶다는 마�
 ![OWASP ZAP](https://img.shields.io/badge/OWASP_ZAP-000000?style=flat-square&logo=owasp&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 
-
 <br />
-<br />
-
 
 ---
 
-## ✨ 주요 기능
-### 🏠 보호소
-
-유기동물 등록 및 관리<br />
-입양 공고 생성 및 관리<br />
-입양 신청서 검토 및 승인/거부<br />
-<br />
-### 🙋 입양희망자
-
-입양 가능 동물 검색 및 조회<br />
-입양 신청서 제출<br />
-신청 현황 확인<br />
-<br />
-### 💬 커뮤니티
-
-게시판 기능 (자유게시판, 후기 등)<br />
-이미지 업로드 및 관리<br />
-<br />
-### 🔄 상태 관리 시스템
-
-Pet: AVAILABLE → ANNOUNCED → ADOPTED<br />
-Announcement: OPEN → CLOSED → COMPLETED<br />
-Application: SUBMITTED → UNDER_REVIEW → APPROVED/REJECTED<br />
-
-<br />
-<br />
-
-
----
-
-## 🏗 서비스 구성
+## 🐶 서비스 구성
 
 | 서비스명 | 책임 |
 |---------|------|
@@ -139,42 +95,72 @@ Application: SUBMITTED → UNDER_REVIEW → APPROVED/REJECTED<br />
 | Pet Service | 입양동물 정보 |
 
 <br />
-<br />
-
 
 ---
 
+## 🐶 주요 기능
+### 🏠 보호소
+유기동물 등록 및 관리<br />
+입양 공고 생성 및 관리<br />
+입양 신청서 검토 및 승인/거부<br />
+<br />
 
-## 서비스 아키텍처
+### 🙋 입양희망자
+입양 가능 동물 검색 및 조회<br />
+입양 신청서 제출<br />
+신청 현황 확인<br />
+<br />
 
-AWS EKS Architecture
+### 💬 커뮤니티
+게시판 기능 (자유게시판, 후기 등)<br />
+이미지 업로드 및 관리<br />
+<br />
 
-Multi-AZ 고가용성 구성
-HPA + Cluster Autoscaler 자동 스케일링
-ArgoCD GitOps 기반 자동 배포
-Grafana Stack Full Observability
+### 🔄 상태 관리 시스템
+Pet: AVAILABLE → ANNOUNCED → ADOPTED<br />
+Announcement: OPEN → CLOSED → COMPLETED<br />
+Application: SUBMITTED → UNDER_REVIEW → APPROVED/REJECTED<br />
+
+<br />
+
+---
+## 🐶 주요 비즈니스 로직
+(입양 프로세스 다이어그램 추가 예정)
+
+<br />
+
+---
+
+## 🐶 인프라 아키텍처
+<p align="center">
+<img width="1621" height="941" alt="image" src="https://github.com/user-attachments/assets/ee335a3e-f925-45d0-b250-df2e65eea724" />
+</p>
+
+<br />
+
+---
    
-### cicd 파이프라인
-
-### 모니터링
-
-### cicd 과정
+## 🐶 CI/CD 파이프라인
+<p align="center">
+<img width="583" height="511" alt="image" src="https://github.com/user-attachments/assets/e537265e-8517-4096-8ef5-ed7754e5cf62" />
+</p>
 
 <br />
-<br />
-
 
 ---
 
-## 중요 비즈니스 로직(입양 프로세스)
+## 🐶 모니터링
+(모니터링 관련 작업 내용 또는 이미지 추가 예정)
 
 <br />
-<br />
-
 
 ---
 
-## 📊 테스트 결과
+<br />
+
+---
+
+## 🐶 테스트 결과
 ### 부하 테스트 (K6)
 
 ✅ 기본 상태 확인: 30초, 10명, 성공률 100%<br />
@@ -194,20 +180,6 @@ Low Risk: 4<br />
 총 7개 테스트 시나리오 통과<br />
 평균 실행 시간: 22.4초<br />
 
-<br />
-<br />
-
-
----
-
-## 🎯 프로젝트 목표 달성
-| 목표 | 목표치 | 달성 결과 | 상태 |
-|------|--------|-----------|:----:|
-| 가용성 | 99.9% | 99.9% 달성 | ✅ |
-| 배포 빈도 | 일 3회 이상 | GitOps 자동화 | ✅ |
-| 비용 최적화 | - | 월 $71.70 절감 | ✅ |
-| 독립 확장성 | - | MSA 9개 서비스 | ✅ |
-
 ### 성능 지표
 
 부하 테스트: 300 동시 사용자, 219,768 요청 성공률 100%<br />
@@ -215,23 +187,15 @@ Low Risk: 4<br />
 배포 시간: 평균 1분 39초<br />
 
 <br />
-<br />
-
 
 ---
 
-## 📈 개선 과제
+## 🐶 확장 계획
 
- SAGA 패턴 도입 (분산 트랜잭션 관리)<br />
- Redis 캐싱 레이어 추가<br />
- Service Mesh (Istio) 검토<br />
- Keda/Karpenter 도입 검토<br />
- 메시지 큐 (SQS/Kafka) 도입<br />
+| 기술 | 도입 목적 |
+|------|----------|
+| **SAGA 패턴** | MSA 환경에서 분산 트랜잭션 관리 및 비동기 이벤트 기반 처리 구현 |
+| **메시지 큐 (Kafka/SQS)** | 비동기 이벤트 처리 및 입양 신청자 점수 자동 집계·순위 산정 시스템 구축 |
+| **AI 매칭 엔진** | 사용자-반려동물 간 맞춤형 매칭 추천 시스템 구현 |
 
 <br />
-<br />
-
-
- ---
-
-
