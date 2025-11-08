@@ -3,7 +3,7 @@
 ## 🐶 프로젝트 소개
 
 ### 배경
-- 매년 약 10만 마리의 유기동물이 발생하지만, 입양률은 25%에 불과
+- 매년 약 10만 마리의 유기동물이 발생하지만, 입양률은 30%에 불과
 - 낮은 입양 정보 접근성으로 인해 보호소의 운영 부담 및 안락사율 증가
 
 
@@ -27,11 +27,14 @@
 
 ## 🐶 개발자
 
+<div align="center">
+
 | <img src="https://github.com/ryukyungwoo.png" width="100"/> | <img src="https://github.com/xeimun.png" width="100"/> | <img src="https://github.com/namung08.png" width="100"/> |
 |:---:|:---:|:---:|
-| **[경우](https://github.com/ryukyungwoo)** | **[민주](https://github.com/xeimun)** | **[상준](https://github.com/namung08)** |
-| DevOps 엔지니어 & PM | Backend 엔지니어 | Backend 엔지니어 |
-| IaC를 활용한 인프라 구축<br/>모니터링 및 CI/CD 구축 | 입양 플랫폼 핵심 서비스 API 설계 및 구현<br/>상태 로직 고도화로 입양 프로세스 안정화 | 게시판 서비스 고도화<br/>E2E 테스트 자동화 |
+| **[유경우](https://github.com/ryukyungwoo)** | **[지민주](https://github.com/xeimun)** | **[이상준](https://github.com/namung08)** |
+| • IaC 기반 인프라 자동화<br/>• 모니터링 시스템 및 CI/CD 구축 | • 입양 API 설계 및 구현<br/>• 입양 프로세스 상태 로직 안정화 | • 게시판 서비스 설계 및 구현<br/>• E2E 테스트 자동화 구축 |
+
+</div>
 
 <br />
 
@@ -82,45 +85,37 @@
 
 ## 🐶 서비스 구성
 
-| 서비스명 | 책임 |
-|---------|------|
-| Frontend | UI/UX, SSR |
-| API Gateway | 라우팅, 인증 검증 |
-| Auth Service | 인증/인가, JWT |
-| User Service | 사용자 관리 |
-| Board Service | 게시판 CRUD |
-| Image Service | 이미지 처리 |
-| Announcement Service | 입양 동물 공고 |
-| Application Service | 입양 신청 |
-| Pet Service | 입양동물 정보 |
+  | 서비스명                       | 역할                                    |
+  |----------------------------|---------------------------------------|
+  | application-service        | 입양 신청서 관리 및 승인/거절 처리 서비스 |
+  | announcement-service       | 동물 입양 공고 관리 서비스                   |
+   | pet-service                | 동물 정보 관리 및 상태 추적 서비스               |
+  | auth-service               | JWT 토큰 기반 사용자 인증 및 세션 관리 서비스          |
+  | board_service              | 커뮤니티 게시글 및 댓글 관리 서비스 (MongoDB 기반)     |
+  | image-service              | AWS S3 기반 이미지 업로드/삭제 처리 서비스           |
+  | spring-api-gateway-service | API 게이트웨이 - 라우팅 및 JWT 인증 서비스          |
+  | user-service               | 사용자(일반인/쉘터) 계정 관리 서비스                 |
 
 <br />
 
 ---
 
 ## 🐶 주요 기능
-### 🏠 보호소
+### 보호소
 유기동물 등록 및 관리<br />
 입양 공고 생성 및 관리<br />
 입양 신청서 검토 및 승인/거부<br />
 <br />
 
-### 🙋 입양희망자
+### 입양희망자
 입양 가능 동물 검색 및 조회<br />
 입양 신청서 제출<br />
 신청 현황 확인<br />
 <br />
 
-### 💬 커뮤니티
+### 커뮤니티
 게시판 기능 (자유게시판, 후기 등)<br />
 이미지 업로드 및 관리<br />
-<br />
-
-### 🔄 상태 관리 시스템
-Pet: AVAILABLE → ANNOUNCED → ADOPTED<br />
-Announcement: OPEN → CLOSED → COMPLETED<br />
-Application: SUBMITTED → UNDER_REVIEW → APPROVED/REJECTED<br />
-
 <br />
 
 ---
@@ -178,6 +173,7 @@ Application: SUBMITTED → UNDER_REVIEW → APPROVED/REJECTED<br />
 ### E2E 테스트 (Playwright)
 - 총 7개 테스트 시나리오 통과<br />
 - 평균 실행 시간: 22.4초<br />
+<br />
 
 ### 성능 지표
 - 부하 테스트: 300 동시 사용자, 219,768 요청 성공률 100%<br />
