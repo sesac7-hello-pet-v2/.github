@@ -15,6 +15,9 @@
 ### 기간
 - 2025.09.23 ~ 2025.10.27 (35일)
 
+### Project Notion
+- https://glib-magic-ae0.notion.site/Hello-PET-2705bb176505801794e1d0ddaaedb86a
+
 <br />
 
 ### 실제 메인페이지
