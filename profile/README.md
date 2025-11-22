@@ -50,7 +50,7 @@
 
 ### Backend
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white)
 
 ### Database
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
@@ -207,8 +207,10 @@
 <br /> 
 
 ### Notion
-문서화 및 회의록
-- https://glib-magic-ae0.notion.site/Hello-PET-2705bb176505801794e1d0ddaaedb86a
+문서화 및 회의록<br /><br />
+[🔗 노션 페이지 바로가기](https://glib-magic-ae0.notion.site/Hello-PET-2705bb176505801794e1d0ddaaedb86a)
+
+
 <br /> 
 
 <br /> 
